@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <title>ASMR收藏夹 - 宅男兔比</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="copyright" content="Light"/>
+    <link rel="shortcut icon" href="/usr/themes/coohub/images/ico.png"/>
+    <link rel="apple-touch-icon" href="/usr/themes/coohub/images/ico.png"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/fonts/linecons/css/linecons.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/xenon-core.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/xenon-components.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/xenon-skins.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/xenon-forms.css"/>
+    <link rel="stylesheet" href="/usr/themes/coohub/css/nav.css"/>
+    <script src="/usr/themes/coohub/js/jquery.min.js"></script>
+
+    <meta name="description" content="宅男兔比ASMR最新地址"/>
+    <meta name="keywords" content="宅男兔比,ASMR收藏夹"/>
+
+    <style>
+        body {
+            font-family: Source Sans Pro, sans-serif !important;
+        }
+        .mobile-break {
+            display: none;
+        }
+        /* 在移动设备上的样式 */
+        @media screen and (max-width: 640px) {
+            .zmki_footer_mar {
+                padding: 0 15px;
+            }
+            .footer-inner {
+                width: 100%;
+            }
+
+            .zmki_footer_mar {
+                text-align: center;
+            }
+
+            .mobile-break {
+                display: block;
+            }
+        }
+    </style>
+
+</head>
+<body class="page-body">
+<!-- skin-white -->
+<div class="page-container">
+    <div class="sidebar-menu toggle-others fixed">
+        <div class="sidebar-menu-inner">
+            <header class="logo-env">
+                <!-- logo -->
+                <div class="logo">
+                    <img class="logo_size" src="/usr/themes/coohub/images/logo.png" width="100%" alt=""/>
+                </div>
+            </header>
+            <ul id="main-menu" class="main-menu mobile-is-visible">
+                <li>
+                    <a href="#常用推荐" class="smooth">
+                        <span class="title">常用推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#收藏地址" class="smooth">
+                        <span class="title">收藏地址</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#浏览工具" class="smooth">
+                        <span class="title">浏览工具</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#直播平台" class="smooth">
+                        <span class="title">直播平台</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#使用说明" class="smooth">
+                        <span class="title">使用说明</span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <!--顶部新增模块开始	-->
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" data-set-nav="#常用推荐"></i>原创推荐
+        </h4>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://link.zhihu.com/?target=https://asmr2.com', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="记得要收藏发布页哟~">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/icontube.png" class="img-circle" width="36px"/>
+								</span>
+                        <div class="xe-comment">
+                            <span id="wb-title" class="xe-user-name overflowClip_1"> 守町兗毗 </span>
+                            <p id="wb-info" class="overflowClip_3">世泫云伛贫DVPU皇罔竜</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <!--   收藏地址     -->
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" data-set-nav="#收藏地址"></i>收藏地址
+        </h4>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" style="height: auto"
+                     onclick="void(0)" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="记得要收藏当前地址哟~">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/shouc.webp" class="img-circle" width="36px"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 收藏发布页 </span>
+                            <p class="overflowClip_3">方便各位找到回家的路</p>
+                        </div>
+
+                        <div>
+                            <p style="display: block;font-size: 13px;color: #7c7c7c;margin: 10px 0;">当前地址并不能保证不被拦截，以下为备用网址。</p>
+                            <div id="url-container">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" style="height: auto"
+                     onclick="window.open('mailto:01001asmr@gmail.com', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="邮件尽可能描述清楚你的需求~">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/email.webp" class="img-circle" width="36px"
+                                         alt="联系邮箱"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 联系方式 </span>
+                            <p class="overflowClip_3">01001asmr@gmail.com</p>
+                        </div>
+
+                        <div>
+                            <p style="display: block;font-size: 13px;color: #7c7c7c;margin: 10px 0;">请收藏本发布页防止走丢，您也可以给我们发邮件获得最新的可用地址。</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" data-set-nav="#浏览工具"></i>浏览工具
+        </h4>
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://sj.qq.com/appdetail/com.android.chrome', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title=""
+                     data-original-title="腾讯应用宝渠道，更适合国内宝宝体质。">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/chrome.webp" class="img-circle"
+                                         width="36" alt="Chrome"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Chrome - 应用宝 </span>
+                            <p class="overflowClip_3">全球最快速安全的网络浏览器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://www.alookweb.com/', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="https://www.alookweb.com/">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/alook.webp" class="img-circle" width="36"
+                                         alt="Alook浏览器"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Alook浏览器 </span>
+                            <p class="overflowClip_3">极简且强大的移动手机浏览器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://viayoo.com/zh-cn/', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="https://viayoo.com/zh-cn/">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/via.webp" class="img-circle" width="36"
+                                         alt="via浏览器"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Via浏览器 </span>
+                            <p class="overflowClip_3">简洁轻快浏览器 – 极客之选</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://sj.qq.com/appdetail/com.microsoft.emmx', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="腾讯应用宝渠道，更适合国内宝宝体质。"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/edge.webp"
+                                         class="img-circle" width="36" alt="Edge"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Edge浏览器 - 应用宝 </span>
+                            <p class="overflowClip_3">微软出品的一款快捷且安全的浏览器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.xbext.com/', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="https://www.xbext.com/"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/x.webp"
+                                         class="img-circle" width="36" alt="x"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> X浏览器 </span>
+                            <p class="overflowClip_3">小而强大，一个纯粹的手机浏览器。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.microsoft.com/zh-cn/edge/download', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="微软浏览器官网，海外下载渠道。"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/edge.webp"
+                                         class="img-circle" width="36" alt="Edge"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Edge浏览器 </span>
+                            <p class="overflowClip_3">微软出品的一款快捷且安全的浏览器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://www.google.cn/intl/zh-CN/chrome/', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="Chrome浏览器官网，部分地区可能无法访问。">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/chrome.webp" class="img-circle"
+                                         width="36" alt="Chrome"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> Chrome</span>
+                            <p class="overflowClip_3">全球最快速安全的网络浏览器</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br/>
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" data-set-nav="#直播平台"></i>直播平台
+        </h4>
+        <div class="row">
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.bilibili.com/', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="https://www.bilibili.com/"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/bilibili.webp"
+                                         class="img-circle" width="36" alt="哔哩哔哩"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 哔哩哔哩 </span>
+                            <p class="overflowClip_3">国内知名的视频弹幕网站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://www.huya.com/', '_blank')" data-toggle="tooltip" data-placement="bottom"
+                     title="" data-original-title="https://www.huya.com">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/huya.webp"
+                                         class="img-circle" width="36" alt="虎牙直播平台"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 虎牙直播 </span>
+                            <p class="overflowClip_3">游戏电竞赛事 视频&直播平台</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://douyu.com/', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="https://douyu.com/"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/douyu.webp"
+                                         class="img-circle" width="36" alt="斗鱼直播"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 斗鱼直播 </span>
+                            <p class="overflowClip_3">斗鱼-超高清游戏直播视频娱乐平台</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info"
+                     onclick="window.open('https://www.missevan.com/', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="https://www.missevan.com/">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/maoer.webp"
+                                         class="img-circle" width="36" alt="猫耳FM"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 猫耳FM </span>
+                            <p class="overflowClip_3">来自二次元的声音_(:3」∠)_M站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div
+                        class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://lizhi.fm/', '_blank')"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title=""
+                        data-original-title="https://lizhi.fm/"
+                >
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/liz.webp"
+                                         class="img-circle" width="36" alt="荔枝FM"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 荔枝FM </span>
+                            <p class="overflowClip_3">荔枝是专业的音频分享平台</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br/>
+        <!--            使用说明-->
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" data-set-nav="#使用说明"></i>使用说明
+        </h4>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" style="height: auto"
+                     onclick="window.open('mailto:01001asmr@gmail.com', '_blank')" data-toggle="tooltip"
+                     data-placement="bottom" title="" data-original-title="邮件尽可能描述清楚你的需求~">
+                    <div class="xe-comment-entry">
+								<span class="xe-user-img">
+									<img src="./usr/themes/coohub/icon/info.webp" class="img-circle" width="36px"
+                                         alt="联系邮箱"/>
+								</span>
+                        <div class="xe-comment">
+                            <span class="xe-user-name overflowClip_1"> 安全事项 </span>
+                            <p class="overflowClip_3">请仔细阅读事项说明</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p style="display: block;font-size: 13px;color: #797979;margin: 8px 0;">&nbsp;&nbsp;&nbsp;&nbsp;请使用谷歌浏览器、 Edge浏览器等本站推荐的浏览器，其他国产浏览器均被封锁拉黑🛑。</p>
+                        <p style="display: block;font-size: 13px;color: #797979;margin: 6px 0;">&nbsp;&nbsp;&nbsp;&nbsp;福建/河南地区存在白名单，基本拦截了90%以上的海外网址，所以该地区请使用🪜上网。</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <br/>
+
+
+        <footer class="main-footer sticky footer-type-1">
+            <div class="footer-inner">
+                <div class="zmki_footer_mar">
+                    &copy; 2019&nbsp; 宅男兔比 All Rights Reserved · <br class="mobile-break" /> <span>Email：01001asmr@gmail.com</span>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            const mainMenu = document.querySelector('#main-menu');
+            $("a.smooth").click(function (e) {
+                const isMobile = document.querySelector('html').classList.contains('screen-phone');
+                $("#main-menu li").each(function () {
+                    $(this).removeClass("active");
+                });
+                $(this).parent("li").addClass("active");
+                e.preventDefault();
+                const href = $(this).attr("href");
+                let pos = $(`[data-set-nav=${href}]`).offset().top;
+                const searchInput = document.querySelector('.search-input');
+                if (isMobile) {
+                    pos -= searchInput && window.isSearchTop == '1' ? 150 : 25;
+                    $('.page-container .sidebar-menu').fadeToggle('normal');
+                } else {
+                    pos -= searchInput && window.isSearchTop == '1' ? 100 : 70;
+                }
+                $("html,body").animate({
+                    scrollTop: pos
+                }, 500);
+            });
+        </script>
+        <!--<script src="/usr/themes/coohub/js/index.js"></script>-->
+        <script src="/usr/themes/coohub/js/zui.js"></script>
+        <!--<script src="/usr/themes/coohub/js/bootstrap.min.js"></script>-->
+        <!--<script src="/usr/themes/coohub/js/TweenMax.min.js"></script>-->
+        <script src="/usr/themes/coohub/js/resizeable.js"></script>
+        <!--<script src="/usr/themes/coohub/js/joinable.js"></script>-->
+        <!--        <script src="/usr/themes/coohub/js/xenon-api.js"></script>-->
+        <script src="/usr/themes/coohub/js/xenon-toggles.js"></script>
+        <script src="/usr/themes/coohub/js/xenon-custom.js"></script>
+
+        <style>
+            .col-sm-3 {
+                width: 25%;
+            }
+            @media screen and (max-width: 768px) {
+                .col-sm-3 {
+                    width: 100%;
+                }
+            }
+        </style>
+    </div>
+
+    <div class="fk_service">
+        <ul>
+            <li class="fk_service_box fk_service_themes" onclick="toggleTheme()" style="display: block;">
+                <a id="03" href="#" rel="theme-toggle" class="fk_service_box fk_service_themes"
+                   title="切换皮肤"></a>
+            </li>
+            <li class="fk_service_box fk_service_sidebar visible-xs" onclick="document.getElementById('01').click();"
+                style="display: block;">
+                <a id="01" href="#" rel="toggle-sidebar" class="fk_service_box fk_service_sidebar"
+                   title="切换侧栏" data-toggle="mobile-menu">1</a>
+            </li>
+            <li class="fk_service_box fk_service_upward" onclick="document.getElementById('02').click();"
+                style="display: block;">
+                <a id="02" href="#" rel="go-top" class="fk_service_box fk_service_upward"
+                   title="返回顶部">2</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="./usr/themes/coohub/js/content.js"></script>
+<script>
+    // 获取页面主体元素
+    const body = document.querySelector('body');
+
+    // 检查系统设置的主题模式，如果是暗色模式则在页面主体元素上添加 'dark' 类
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        body.classList.add('dark');
+    }
+
+    // 切换主题模式的函数
+    function toggleTheme() {
+        body.classList.toggle('dark');
+    }
+</script>
+</body>
+</html>
